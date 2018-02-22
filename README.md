@@ -1,5 +1,5 @@
 # Role Name: network-config
-The ```network-config``` role provids a set of tasks for working with network
+The ```network-config``` role provides a set of tasks for working with network
 device active (running) configurations.  The role provides tasks for retrieving
 the current device configuration, rendering a device configuration based on
 facts and loading the the configuration onto the device.  
@@ -23,7 +23,7 @@ playbooks.
 The following role variables are defined by this role.
 
 ### ansible_network_os
-Configure the network os value for the network device.  This role varialble is
+Configure the network os value for the network device.  This role variable is
 used to map the role actions to device specific provider implementations.
 Typically this value should be set in the playbook inventory for the host.  
 
